@@ -9,13 +9,18 @@ build.
 
 ## Open source
 
-| Project | What it is |
-|---|---|
-| **[openclaw-skills](https://github.com/emperorjslabs/openclaw-skills)** | Autopilot — turns [OpenClaw](https://docs.openclaw.ai) from a chatbot into an operator that decomposes a goal, works a backlog unattended on a cron pulse, swarms subagents, and reports only at checkpoints. |
-| **[proofsettle](https://github.com/emperorjslabs/proofsettle)** | Trustless World Cup prediction markets — parimutuel on Solana, settled on-chain against a verified data feed with Merkle receipts. |
-| **[edgebot](https://github.com/emperorjslabs/edgebot)** | Autonomous value-betting agent. Turns live odds into Kelly-sized positions with no human in the loop. |
-| **[groupcup](https://github.com/emperorjslabs/groupcup)** | Telegram-native prediction league, auto-scored from live match data. |
-| **[tele-vite](https://github.com/emperorjslabs/tele-vite)** | Universal framework for building Telegram bots with a modern web stack. |
+### [openclaw-skills](https://github.com/emperorjslabs/openclaw-skills)
+
+**Autopilot** — turns [OpenClaw](https://docs.openclaw.ai) from a chatbot into
+an operator that works unattended. Give it a big goal: it decomposes the goal
+into a durable backlog, works one item per cron tick, swarms subagents on the
+parallel parts, verifies its own work against acceptance criteria it can
+actually execute, and reports only at checkpoints.
+
+Ships approval-first, with a per-program deny-list, three-strike escalation,
+and a kill switch every tick checks before anything else.
+
+MIT. Issues and pull requests welcome.
 
 ## What we build
 
@@ -43,4 +48,4 @@ Solana · Docker
 - **Telegram** — [@EmperorJS](https://t.me/EmperorJS)
 - **Maintainer** — [@emperorjsx](https://github.com/emperorjsx)
 
-Open-source projects here are MIT licensed. Issues and pull requests welcome.
+Most work here is private. More opens up over time.
