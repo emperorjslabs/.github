@@ -1,45 +1,15 @@
-Hi, I'm Emperor JS 👋
+# .github
 
-[![wakatime](https://wakatime.com/badge/user/d3b1dcea-49cf-4a0e-9f93-0b474c4edab0.svg)](https://wakatime.com/@d3b1dcea-49cf-4a0e-9f93-0b474c4edab0)
+Organization-level defaults for [@emperorjslabs](https://github.com/emperorjslabs).
 
-Full-Stack Developer • Backend Engineer • Web3 Builder
+| Path | Purpose |
+|---|---|
+| `profile/README.md` | Rendered as the public org profile at [github.com/emperorjslabs](https://github.com/emperorjslabs) |
 
-I build scalable applications, backend systems, AI-powered products, automation platforms, and blockchain infrastructure.
+Files added here apply across every repo in the org that does not define its
+own. Community health files (`CONTRIBUTING.md`, `SECURITY.md`, issue and PR
+templates) can live here as org-wide defaults.
 
-I enjoy turning ideas into production-ready products, solving complex technical problems, and shipping fast.
-
-🟢 Open to Work
-
-🌐 Website: https://emperorjs.com
-
----
-
-What I Do
-
-- Full-Stack Development
-- Backend Architecture
-- AI Agents & Automation
-- Web3 Applications
-- Developer Tools
-- APIs & Infrastructure
-- SaaS Products
-
----
-
-Current Focus
-
-- AI-Powered Applications
-- Scalable Backend Systems
-- Blockchain Infrastructure
-- Product Development
-
----
-
-Connect
-
-- Website: https://emperorjs.com
-- Telegram: https://t.me/EmperorJS
-
----
-
-«Build useful things. Ship fast. Keep learning. Trust God through the process.»
+> The org profile and the personal profile at
+> [@emperorjsx](https://github.com/emperorjsx) are deliberately separate — one
+> describes the studio and its work, the other the person.
