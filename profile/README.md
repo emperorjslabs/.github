@@ -9,18 +9,9 @@ build.
 
 ## Open source
 
-### [openclaw-skills](https://github.com/emperorjslabs/openclaw-skills)
-
-**Autopilot** — turns [OpenClaw](https://docs.openclaw.ai) from a chatbot into
-an operator that works unattended. Give it a big goal: it decomposes the goal
-into a durable backlog, works one item per cron tick, swarms subagents on the
-parallel parts, verifies its own work against acceptance criteria it can
-actually execute, and reports only at checkpoints.
-
-Ships approval-first, with a per-program deny-list, three-strike escalation,
-and a kill switch every tick checks before anything else.
-
-MIT. Issues and pull requests welcome.
+| Project | What it is |
+|---|---|
+| **[openclaw-skills](https://github.com/emperorjslabs/openclaw-skills)** | Autopilot — turns [OpenClaw](https://docs.openclaw.ai) from a chatbot into an operator that works unattended: decomposes a goal into a durable backlog, works one item per cron tick, swarms subagents on the parallel parts, verifies against criteria it can actually execute, and reports only at checkpoints. |
 
 ## What we build
 
